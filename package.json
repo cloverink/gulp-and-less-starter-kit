@@ -14,8 +14,11 @@
   "author": "Aran Chananar",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^2.1.0",
+    "gulp-cleanhtml": "^1.0.3",
     "gulp-concat": "^2.4.3",
     "gulp-cssmin": "^0.1.6",
     "gulp-jshint": "^1.9.2",
@@ -25,8 +28,6 @@
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
     "gulp-uglify": "^1.1.0",
-    "gulp-util": "^3.0.3",
-    "gulp-cleanhtml": "^1.0.3",
-    "jshint-stylish": "^1.0.0"
+    "gulp-util": "^3.0.3"
   }
 }
