@@ -11,8 +11,6 @@ gulp.task('build-html', () => gulp.src('src/*.html').pipe(cleanhtml()).pipe(gulp
 
 gulp.task('build-js', function () {
   return gulp.src('src/js/**/*.js')
-    .pipe(plugins.jshint())
-    .pipe(plugins.jshint.reporter('jshint-stylish'))
     .pipe(plugins.uglify({
       output: {
         'ascii_only': true
