@@ -1,12 +1,11 @@
-var Wow = (function (self) {
-  var my = self,
-    func = {};
+var Wow = (function(self) {
+  var my = self
 
-  my.init = function () {
+  my.init = function() {
     console.log('wow')
-  };
+  }
 
-  return my;
-})(Wow || {});
+  return my
+})(Wow || {})
 
-Wow.init();
+Wow.init()

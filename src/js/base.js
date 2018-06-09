@@ -1,12 +1,11 @@
-var Main = (function (self) {
-  var my = self,
-    func = {};
+var Main = (function(self) {
+  var my = self
 
-  my.init = function () {
+  my.init = function() {
     console.log('Main')
-  };
+  }
 
-  return my;
-})(Main || {});
+  return my
+})(Main || {})
 
-Main.init();
+Main.init()
